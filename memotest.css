@@ -1,0 +1,47 @@
+.main-container {
+	width: auto;
+	height: auto;
+	background-color: #FFD90F;
+}
+#brd-container {
+	width: auto;
+	height: auto;
+	border: solid black;
+	display: flex;
+	justify-content: center;
+}
+.text-container {
+	width: 600px; 
+	height: 700px; 
+	background-color:#FFD90F ;
+	margin-left: 10px;
+	text-align: center
+	vertical-align: center;
+	
+}
+
+.game-container {
+	width: 1200px;
+	height: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+
+img{
+	width: 224px;
+	height:224px;
+	margin: 5px;
+}
+p {
+	font-family: arial;
+}
+.titulo {
+	font-size: 20px;
+	font-weight: bold;
+}
+.esc {
+  display: none;
+}
