@@ -6,12 +6,13 @@ let cardsArray = ["duff_beer.png",
 									"donut.png",
 									"donut.png",
 									"donut.png",
-									"6x6-joshua-budich-fictional-fo.jpg",
-									"6x6-joshua-budich-fictional-fo.jpg",
-									"6x6-joshua-budich-fictional-fo.jpg",
-									"6x6-joshua-budich-fictional-fo.jpg"]
+									"venus.png",
+									"venus.png",
+									"venus.png",
+									"venus.png"]
 
 const userName = $('#usuario')
+
 
 function add() {
   const inputValue = $('#nombre').val()
@@ -28,6 +29,8 @@ $('#nombre').on('keypress', function(e) {
         $('#jugador').addClass('esc')
     }
 })
+
+
 
 let cartasDesordenadas = shuffle(cardsArray);
 console.log(cartasDesordenadas)
